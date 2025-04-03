@@ -17,7 +17,7 @@ permissions:
 
 env:
   PROJECT_NAME: PsychEngine
-  REPO_PATH: MatthewFro191919/Testing-3
+  REPO_PATH: MatthewFro191919/Testing-4
 
 jobs:
   get-commit-hash:
