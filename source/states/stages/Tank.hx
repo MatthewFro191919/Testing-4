@@ -323,7 +323,6 @@ class Tank extends BaseStage
 				case "picoEnd", "Pico Dual Wield on Speaker idle":
 					gfGroup.alpha = 1;
 					pico.visible = false;
-					pico.animation.remove(picoStressCycle);
 			}
 		}
 
