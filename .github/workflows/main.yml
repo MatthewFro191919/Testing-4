@@ -38,7 +38,8 @@ jobs:
     needs: get-commit-hash
     strategy:
       matrix:
-        include:        - name: Windows
+        include:    
+          - name: Windows
             os: windows-2022
             buildArgs: windows
             artifactName: windowsBuild
